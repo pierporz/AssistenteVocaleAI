@@ -9,13 +9,13 @@ This is a Python script that uses OpenAI to recognize voice input and generate a
 ## Requirements
 * Python 3.6 or later.
 * An OpenAI API key (free or paid).
+* Copy and paste OpenAI API Key in apiKey.txt file
 
 To install the required Python packages, run the following command:
 
 
 ```pip install -r requirements.txt```
 
-Copy and paste OpenAI API Key in apiKey.txt file
 ## Usage
 To run the script, simply execute the following command:
 
