@@ -79,9 +79,9 @@ if error == 0:
         #Call OpenAI service with the prompt collected from user
         answerAI = callCompletion(prompt)
     except:
-        answerAI= "Non sono in grado di rispondere"
+        answerAI= "I cannot answer"
 else: 
-    answerAI= "Non ho capito"
+    answerAI= "I did not understand"
 
 #Convert into audio the response from OpenAI
 textToAudio(answerAI)
